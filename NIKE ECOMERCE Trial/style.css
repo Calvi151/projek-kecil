@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 3rem 5%;
+    background-color: rgb(144, 62, 3);
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    align-content: center;
+    bottom: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar a {
+    font-size: 25px;
+    color: white;
+    margin-left: 8rem;
+    font-weight: 100;
+    transition: all 2s ease-in-out;
+    transform: rotate(0deg);
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: red;
+    border-bottom: black;
+}
+
+.search {
+    margin-left: 6rem;
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 7rem;
+}
+
+.hero {
+    background-color: rgb(26, 15, 15);
+    padding: 15rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+    top: -6rem;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    max-width: 1200px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+
+.model {
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 30px;
+    object-fit: cover;
+    transition: all 0.8s ease;
+}
+
+.text-hero {
+    color: coral;
+    background-color: chocolate;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.text-hero1 {
+    font-size: 3rem;
+    margin: 0;
+}
