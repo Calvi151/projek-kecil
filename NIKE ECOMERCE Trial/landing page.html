@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="1style.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <script src="script.js"></script>
 </head>
 <body>
     <header class="header">
-        <a href="Home"></a>
         <nav class="navbar">
             <div class="nav-links">
                 <a href="#home">Home</a>
+                <a href="#about us">About us</a>
                 <a href="#product">Product</a>
-                <a href="#about us">About Us</a>
+                <a href="#service">Service</a>
                 <a href="#contact">Contact</a>
             </div>
             <input type="text" placeholder="Search product" class="search">
@@ -21,7 +23,7 @@
         </nav>
     </header>
 
-    <div class="hero">
+    <div class="hero" id="home">
         <section class="kiri">
             <div class="showcase">
                 <img src="model.png" alt="gambar" class="model">
@@ -40,7 +42,7 @@
         </section>
     </div>
 
-    <section class="product">
+    <section class="product" id="about us">
         <div class="product-text">
             <h3>
                 Nike - Innovation, Performance, and Iconic Style
@@ -57,7 +59,7 @@
         <div class="barang">
             <img src="sepatu 2.png" alt="Nike Shoes">
     </section>
-    <section class="list-produk">
+    <section class="list-produk" id="product">
         <div class="text">
             <h2>
                 OUR PRODUCTS
@@ -126,12 +128,87 @@
             </h4>
             <button>Buy Now</button>
         </div>
-
-        <section class="service">
-            <h3>
-                
-            </h3>
-        </section>
     </section>
+
+    <section class="service" id="service">
+         <div class="texts-service">
+            <h1>
+                OUR SERVICES
+            </h1>
+        </div>
+        <div class="services-kartu">
+             <div class="kartu-service">
+            <div class="icon">
+                 <i class="bx bx-message"></i>
+            </div>
+           <h2>
+            Customer Service
+           </h2>
+           <p>
+            We are here to help you with any questions or concerns you may have. Our customer service team
+           </p>
+        </div>
+        <div class="kartu-service">
+            <div class="icon">
+                 <i class="bx bxs-truck"></i>
+            </div>
+           <h2>
+            Fast Delivery
+           </h2>
+           <p>
+            We offer fast and reliable delivery services to ensure that your orders reach you on time. 
+           </p>
+        </div>
+        <div class="kartu-service">
+            <div class="icon">
+                 <i class="bx bxs-star"></i>
+            </div>
+           <h2>
+            Quality Assurance
+           </h2>
+           <p>
+            original Nike products with a focus on quality and performance.
+           </p>
+        </div>
+        </div>
+    </section>
+
+   <section class="contact" id="contact">
+     <h1>
+        Contact Us
+    </h1>
+     <div class="sosial">
+    <i class="bx bxl-facebook"></i>
+    <i class="bx bxl-instagram"></i>
+    <i class="bx bxl-whatsapp"></i>
+    </div>
+    <div class="inputan">
+          <div class="input-kelompok">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+    </div>
+    <div class="pesan">
+        <input type="text" placeholder="Your message">
+        <input type="submit" value="Send">
+    </div>
+    </div>
+   </section>
+
+<footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="#">FAQ</a>
+            <a href="#">Karier</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="social">
+            <a href="#"><i class="bx bxl-gmail"></i></a>
+            <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2023 Nama Brand. All Rights Reserved</p>
+    </div>
+</footer>
 </body>
 </html>
